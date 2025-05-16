@@ -12,13 +12,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-REPO_URL = os.getenv('REPO_URL', "https://github.com/milvus-io/milvus-docs.git")
-LOCAL_PATH = os.getenv('LOCAL_PATH', "milvus-docs")
-TARGET_DIR = os.path.join(LOCAL_PATH, os.getenv('TARGET_DIR', "site/en"))
+REPO_URL = os.getenv('REPO_URL', "")
+LOCAL_PATH = os.getenv('LOCAL_PATH', "")
+TARGET_DIR = os.path.join(LOCAL_PATH, os.getenv('TARGET_DIR', ""))
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', "extracted_text")
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 GITHUB_APP_KEY_PATH = os.getenv('GITHUB_APP_KEY_PATH')
-REPO_NAME = os.getenv('REPO_NAME', "milvus-io/milvus-docs")
+REPO_NAME = os.getenv('REPO_NAME', "")
 GITHUB_APP_ID = os.getenv('GITHUB_APP_ID')
 GITHUB_APP_INSTALLATION_ID = os.getenv('GITHUB_APP_INSTALLATION_ID')
 
