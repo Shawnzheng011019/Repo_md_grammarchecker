@@ -1,4 +1,4 @@
-# Milvus Docs Grammar Checker
+# Markdown Docs Grammar Checker
 
 A tool to automatically detect grammar errors and Chinglish expressions in Milvus documentation using OpenAI GPT-4 and create actionable GitHub issues for corrections.
 
